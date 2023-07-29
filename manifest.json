@@ -1,0 +1,32 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Single Player Sleep",
+		"description": "Skips to day when one player sleeps",
+		"uuid": "65a3137e-5441-4c64-8036-4f19203879fb",
+		"min_engine_version": [1, 19, 40],
+		"version": [1, 0, 0]
+	},
+	"modules": [
+		{
+			"description": "Behavior Pack Module",
+			"type": "data",
+			"uuid": "3aa50916-0b2b-4028-9edb-14111637d3d5",
+			"version": [1, 0, 0]
+		},
+		{
+			"description": "Gametest Module",
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/index.js",
+			"uuid": "5fd9579b-f90c-4e4b-a68d-73e8cb90a983",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.4.0-beta"
+		}
+  ]
+}
